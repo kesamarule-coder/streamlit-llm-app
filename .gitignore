@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# 追加: 環境変数ファイル（APIキーなど）を無視
+.env
+
+# 追加: Streamlit Community Cloudへのデプロイ時に使用する設定フォルダ
+.streamlit/
